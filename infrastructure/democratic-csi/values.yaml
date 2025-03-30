@@ -2,7 +2,9 @@
 node:
   kubeletHostPath: /var/lib/k0s/kubelet
   driver:
-    image: ghcr.io/democratic-csi/democratic-csi:v1.9.3
+    image:
+      registry: ghcr.io/democratic-csi/democratic-csi
+      tag: v1.9.3
 
 csiDriver:
   name: "org.democratic-csi.iscsi"
@@ -17,4 +19,6 @@ driver:
 
 controller:
   driver:
-    image: ghcr.io/democratic-csi/democratic-csi:v1.9.3
+    image:
+      registry: ghcr.io/democratic-csi/democratic-csi
+      tag: v1.9.3
