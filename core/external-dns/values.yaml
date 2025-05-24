@@ -37,9 +37,8 @@ managedRecordTypesFilters:
   - MX
   - TXT
 
-#policy: sync
-registry: noop
-txtOwnerId: external-dns-prod-google
+policy: sync
+txtOwnerId: external-dns-public-services-cluster-prod
 txtPrefix: extdns-
 provider: google
 google:
