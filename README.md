@@ -4,6 +4,9 @@
 [![License](https://img.shields.io/github/license/muhlba91/muehlbachler-public-services-cluster-applications?style=for-the-badge)](LICENSE.md)
 [![](https://api.scorecard.dev/projects/github.com/muhlba91/muehlbachler-public-services-cluster-applications/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/muehlbachler-public-services-cluster-applications)
 
+> [!WARNING]
+> **This repository is being deprecated!**
+
 This repository contains applications deployed on the `public-services-cluster` via [Flux](https://fluxcd.io) using [GitOps](https://opengitops.dev).
 
 ---
